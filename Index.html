@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+
+<body style="background-color:rgb(110, 210, 110);">
+
+    <div class="back">
+        <div class="display">
+
+            <div class="maindiv">
+                <h1>Calculate Tip</h1>
+
+                <label for="lname">bill total:</label></br>
+                <form id="myForm">
+                    <input type="text" id="amount" name="lname" style="width: 200px" ;><br>
+
+                    <h2>Choose Tip</h2>
+
+                    <div class="tips">
+                        <div class="tip">10% </div>
+                        <div class="tip">15% </div>
+                        <div class="tip">20% </div>
+                        <div class="tip">25% </div>
+
+
+                    </div>
+                    <!-- <label>
+                        <input class="tip" type="radio" name="options" />
+                        <span>10</span>
+                    </label>
+                    <label>
+                        <input class="tip" type="radio" name="options" />
+                        <span>15</span>
+                    </label>
+
+                    <label>
+                        <input class="tip" type="radio" name="options" />
+                        <span>20</span>
+                    </label>
+
+                    <label>
+                        <input class="tip" type="radio" name="options" />
+                        <span>25</span>
+                    </label> -->
+                    <h2>Split By</h2>
+
+                    <input type="number" id="people" name="q1" min="1" max="20" style="width: 200px" ;>
+
+
+                    <br>
+                    <input type=button class="b" id="skicka" value=Complete>
+            </div>
+            <div class="a">
+
+                <div class="greendiv">
+                    <h2 style="color: azure;">base</h2>
+                    <h2 style="color: azure;" id="a">0</h2>
+                </div>
+                <div class="greendiv">
+                    <h2 style="color: azure;">Tip</h2>
+                    <h2 style="color: azure;" id="tipamount">0</h2>
+                </div>
+                <div class="greendiv">
+                    <h2 style="color: azure;">per person</h2>
+                    <h2 style="color: azure;" id="totalamount">0</h2>
+
+
+                </div>
+                <hr width="100%" size="2">
+                <div class="greendiv">
+                    <h2 style="color: azure;">Total</h2>
+                    <h2 style="color: azure;" id="t">0</h2>
+                </div>
+
+            </form>
+
+                <div class="b">
+                    <button class="button button4" id="skicka" onclick="myFunction()">Reset</button>
+                    
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+</body>
+
+<script src="Script.js"></script>
+</body>
+
+</html>

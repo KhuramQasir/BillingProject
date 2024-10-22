@@ -1,0 +1,150 @@
+.display{
+    display: flex;
+}
+.a{
+    border-radius: 25px;
+    background: green;
+    padding: 20px; 
+}
+.button4 {border-radius: 12px;}
+
+.b1{
+  border-radius: 12px;
+  background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  
+}
+.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+     width: 250px;
+    cursor: pointer;
+  }
+.q{
+    width: 250px;
+}
+.greendiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    width: 250px;
+}
+
+.b{
+    padding-left: 10px;
+}
+.h2{
+    color: aliceblue ;
+}
+.greendaiv{
+    background-color: green;
+   
+}
+.maindiv {
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    padding: 20px; 
+   
+  }
+  input[type="radio"] {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid #13cf7e;
+    background-color: white;
+    -webkit-appearance: none; /*to disable the default appearance of radio button*/
+    -moz-appearance: none;
+  }
+  
+  input[type="radio"]:focus { /*no need, if you don't disable default appearance*/
+    outline: none; /*to remove the square border on focus*/
+  }
+  
+  input[type="radio"]:checked { /*no need, if you don't disable default appearance*/
+    background-color: #13cf7e;
+  }
+  
+  input[type="radio"]:checked ~ span:first-of-type {
+    color: white;
+  }
+  
+  label span:first-of-type {
+    position: relative;
+    left: -27px;
+    font-size: 15px;
+    color: #13cf7e;
+  }
+  
+  label span {
+    position: relative;
+    top: -12px;
+  }
+
+.back{
+  background-color: white;
+  width: 600px;
+ 
+  border-radius: 25px;
+ 
+    padding: 20px; 
+}
+.tips{
+display: flex;
+margin-bottom: 20px;
+flex-wrap: wrap;
+
+}
+.tip{
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  min-width: 80px;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 45px;
+
+  border: 2px solid #555555;
+  cursor: pointer;
+}
+.tip:hover{
+  background: #04AA6D;
+  color: white;
+  min-width: 80px;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 45px;
+  cursor: pointer;
+}
+.tip.tip.input:focus {
+  background-color: #50627E;
+  outline: none;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+  box-shadow: 0 0 1px rgba(0, 0, 0, .75);}
+
+  .back{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+
+  .tip.input:hover,
+  .tip input:focus {
+    background-color: #50627E;
+    outline: none;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+    box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+  }
